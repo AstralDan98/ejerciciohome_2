@@ -1,0 +1,241 @@
+/*====================
+=======Structure======
+======================*/
+
+body{
+    background-color: hsl(0, 0%, 96%);
+    display:flex; 
+    flex-direction:column;    
+    margin: 1em auto;
+    min-height: 100vh;
+    width: 90%;
+}
+
+header{
+    display: flex;
+    height: 9vh;
+    justify-content: space-between;
+    background-color: hsl(0, 92%, 35%);
+}
+
+main{
+    margin: 1em 0;
+    width: 100%;
+}
+
+footer{
+    margin-top: auto; 
+    width: 100%;
+}
+
+.main-element{
+    margin-bottom: 2em;
+}
+
+.footer-element{
+    margin-bottom: 1em;
+}
+
+/*====================
+======Typography======
+======================*/
+
+h1, h2, h3, h4, h5, h6, a, p{
+    color: hsl(0, 0%, 0%);
+}
+
+h1, h2, h3, h4, a, td, p, button {
+    font-family: "Montserrat";
+}
+
+h5, h6 {
+    font-family: "Ubuntu";
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 0.4em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h4 {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+a:focus, a:hover {
+    outline: none;
+    outline-offset: 0;
+    text-decoration: none;
+}
+
+/*====================
+=========Menu=========
+======================*/
+
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:hsl(0, 92%, 35%);
+    line-height: 3.3em;
+}
+
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    color:hsl(0, 0%, 0%);
+    text-align: center;
+    padding: 1em 1.2em;
+    text-decoration: none
+    
+}
+
+li a:hover:not(.active){ 
+    background-color: hsl(0, 80%, 24%);
+}
+
+.active { 
+    background-color: hsl(0, 0%, 96%);    
+}
+
+
+/*====================
+========Banner========
+======================*/
+
+
+
+html, main { 
+    height: 100%;
+    margin: 0;
+    padding: 0 auto;
+}
+
+main img{ 
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%
+}
+
+/*====================
+========Logo=========
+======================*/
+
+.logo{
+    width: max-content;
+}
+
+.logo svg{
+    height: 5em;
+    width: 5em;
+}
+
+.logo svg path{
+    fill:hsl(0, 0%, 100%)
+}
+
+/*====================
+========Menu=========
+======================*/
+
+.menu svg{
+    height: 3em;
+    width: 3em;
+}
+
+.menu:hover svg{
+    cursor: pointer;
+}
+
+.menu svg path{
+    fill: hsl(0, 92%, 35%);
+}
+   
+.menu:hover svg path {
+    fill: hsl(0, 80%, 24%);
+}
+
+/*====================
+========Title=========
+======================*/
+
+.title{
+    margin-left: 1em;
+}
+
+.title h1{
+    text-align: left;
+}
+
+/*====================
+=========services=========
+======================*/
+
+.services__table{
+    text-align: center;
+}
+
+h3{ 
+    background-color: hsl(0, 92%, 35%);
+    min-height: 1.5em;
+    font-size: 1.5em;
+    color:hsl(0, 0%, 96%);
+}
+.services__table-flex{
+    margin-top: 0.75em;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.services__table-flex-element{
+    width: 35%;
+    margin: 0em 5em;
+}
+
+
+/*====================
+========Footer========
+======================*/
+
+
+.footer-element{
+    width: 100%;
+}
+
+.footer-element p{
+    text-align: center;
+}
+
+.author p:hover{
+    color:hsl(0, 92%, 35%)
+}
+
+
+/*@media screen and (max-width:470px) {
+    ul li,
+    ul li {float:none}
+}*/
