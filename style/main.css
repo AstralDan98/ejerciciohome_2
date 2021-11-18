@@ -89,7 +89,7 @@ a:focus, a:hover {
 =========Menu=========
 ======================*/
 
-ul { 
+ul{ 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -177,6 +177,19 @@ main img{
 .menu:hover svg path {
     fill: hsl(0, 80%, 24%);
 }
+
+/*====================
+=======3DViewer=======
+======================*/
+
+.modelo-3d model-viewer {
+    height: 5em;
+    width: 8em;
+}
+
+
+
+
 
 /*====================
 ========Title=========
